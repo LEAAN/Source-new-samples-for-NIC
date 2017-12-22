@@ -22,7 +22,7 @@ Zitong Lian (LEAAN | lianzitong@yahoo.com)
 
 ### Overview
 This 
-
+![Show and Tell Architecture](phase2.png)
 
 
 How to use
