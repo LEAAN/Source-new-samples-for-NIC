@@ -11,11 +11,8 @@ The NIC Wrapper is a framework that augments the training set of [Google NIC](ht
 * [Overview](#overview)
 * [Requirement](#getting-started)
 * [Installation](#installation)
-* [Train](#training-a-model)
-    * [Initial Training](#initial-training)
-    * [Fine Tune the Inception v3 Model](#fine-tune-the-inception-v3-model)
-    * [Image Insertion](#image-insertion)
-* [Evaluate](#evaluate)
+* [References](#references)
+* [Contact](#contact)
 
 ### Overview
 Suppose NIC sees an image of a "cat" and describe it as a "dog". If we use the term "dog"
