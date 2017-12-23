@@ -1,6 +1,11 @@
 # NIC Wrapper
 The NIC Wrapper is a framework that augment the training set of [Google NIC](https://github.com/tensorflow/models/tree/master/research/im2txt#contact)
-, the deep-learning based Neural Image Caption Generator. 
+, the deep-learning based Neural Image Caption Generator. NIC is built to validate a hypothesis that extra training data from [Google Image](https://images.google.com/)
+ may help [Google NIC](https://github.com/tensorflow/models/tree/master/research/im2txt#contact)
+  learn the [MS COCO](http://cocodataset.org/#home) dataset better. NIC Wrapper is built for this purpose.
+  During the training process of NIC, we keep inserting image caption pairs from Google as extra training samples.
+  By doing this, we expect the mistakes made by NIC is corrected. 
+  
 
 ## Contents
 * [Overview](#overview)
@@ -18,12 +23,7 @@ The NIC Wrapper is a framework that augment the training set of [Google NIC](htt
 
 ### Overview
 
-We intend to validate a hypothesis that extra training data from [Google Image](https://images.google.com/)
- may help [Google NIC](https://github.com/tensorflow/models/tree/master/research/im2txt#contact)
-  learn the [MS COCO](http://cocodataset.org/#home) dataset better. NIC Wrapper is built for this purpose.
-  During the training process of NIC, we keep inserting image caption pairs from Google as extra training samples.
-  By doing this, we expect the mistakes made by NIC is corrected. 
-  
+
 This 
 ![Show and Tell Architecture](phase2.png)
 Suppose NIC sees a picture 
