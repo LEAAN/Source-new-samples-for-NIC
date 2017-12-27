@@ -151,6 +151,7 @@ An example of using the COCO evaluation API is available via https://github.com/
 
 ### References
 [Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge](https://arxiv.org/abs/1609.06647)
+
 [Microsoft COCO Captions: Data Collection and Evaluation Server](https://arxiv.org/abs/1504.00325)
 ### Contact
 Zitong Lian (LEAAN | lianzitong@yahoo.com)
