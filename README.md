@@ -9,7 +9,7 @@ The NIC Wrapper is a framework that augments the training set of [Google NIC](ht
 
 ### Contents
 * [Overview](#overview)
-* [Requirement](#getting-started)
+* [Requirement](#requirement)
 * [Installation](#installation)
 * [References](#references)
 * [Contact](#contact)
@@ -37,13 +37,39 @@ Google: a slice of pizza sitting on top of a white plate .    |  Google: a man i
 :------------------------------------------------------------:|:-------------------------------------------------------------------------:
 ![](demo-mirror.png)                                          |  ![](demo-pizza.png)
 --->
+<figure>
+     <figcaption>Caption goes here</figcaption>
+    <img src='demo-pizza.png' alt='missing'  width="230"/>
+      <figcaption>Caption goes here</figcaption>
+    <img src='demo-pizza.png' alt='missing'  width="230"/>
+</figure>
+<figure>
+     <figcaption>Caption goes here</figcaption>
+    <img src='demo-pizza.png' alt='missing'  width="230"/>
+</figure>
 
-<img src="demo-pizza.png" width="230" title="COCO: a pizza sitting on top of a white plate"> <img src="demo-mirror.png" width="230" title = "a person taking a picture in a mirror">
 
+<div id="images">
+    <a>
+        <img src="demo-pizza.png" width="100px" height="100px">
+        <div class="caption">Caption 1</div>
+    </a>
+    <a>
+        <img src="demo-pizza.png" width="100px" height="100px"> 
+        <div class="caption">Caption 2</div>
+    </a>
+</div> 
 
+<!--- just 
+<p align="center">
+<img src="demo-pizza.png" width="230" alt="Smiley face" title="COCO: a pizza sitting on top of a white plate" hfill> <img src="demo-mirror.png" width="230" title = "a person taking a picture in a mirror">
+</p>
+--->
 <!--- just 
 ![ckpt-bird](ckpt-bird.png) ![ckpt-mirror](ckpt-mirror.png) ![ckpt-pizza](ckpt-pizza.png)
 --->
+
+
 ### Requirement
 
 * **TensorFlow** 1.0 or greater ([instructions](https://www.tensorflow.org/install/))
