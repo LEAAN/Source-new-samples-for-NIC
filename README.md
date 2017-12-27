@@ -34,7 +34,7 @@ Google: a slice of pizza sitting on top of a white plate .    |  Google: a man i
 --->
 
 
-<img src="demo-mirror.png" height="425"/> <img src="demo-pizza.png" height="425"/> 
+<img src="demo-mirror.png" height="350"/> <img src="demo-pizza.png" height="350"/> 
 
 
 
