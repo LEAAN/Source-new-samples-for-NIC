@@ -37,28 +37,6 @@ Google: a slice of pizza sitting on top of a white plate .    |  Google: a man i
 :------------------------------------------------------------:|:-------------------------------------------------------------------------:
 ![](demo-mirror.png)                                          |  ![](demo-pizza.png)
 --->
-<figure>
-     <figcaption>Caption goes here</figcaption>
-    <img src='demo-pizza.png' alt='missing'  width="230"/>
-      <figcaption>Caption goes here</figcaption>
-    <img src='demo-pizza.png' alt='missing'  width="230"/>
-</figure>
-<figure>
-     <figcaption>Caption goes here</figcaption>
-    <img src='demo-pizza.png' alt='missing'  width="230"/>
-</figure>
-
-
-<div id="images">
-    <a>
-        <img src="demo-pizza.png" width="100px" height="100px">
-        <div class="caption">Caption 1</div>
-    </a>
-    <a>
-        <img src="demo-pizza.png" width="100px" height="100px"> 
-        <div class="caption">Caption 2</div>
-    </a>
-</div> 
 
 <!--- just 
 <p align="center">
@@ -69,6 +47,20 @@ Google: a slice of pizza sitting on top of a white plate .    |  Google: a man i
 ![ckpt-bird](ckpt-bird.png) ![ckpt-mirror](ckpt-mirror.png) ![ckpt-pizza](ckpt-pizza.png)
 --->
 
+<div class="image123">
+    <div class="imgContainer">
+        <img src="demo-pizza.png" height="200" width="200"/>
+        <p>This is image 1</p>
+    </div>
+    <div class="imgContainer">
+        <img class="middle-img" src="demo-pizza.png"/ height="200" width="200"/>
+        <p>This is image 2</p>
+    </div>
+    <div class="imgContainer">
+         <img src="demo-pizza.png"/ height="200" width="200"/>
+        <p>This is image 3</p>
+    </div>
+</div>
 
 ### Requirement
 
