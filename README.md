@@ -32,35 +32,11 @@ seen below:
 COCO: a pizza sitting on top of a white plate .\n             |  COCO: a person taking a picture in a mirror .
 Google: a slice of pizza sitting on top of a white plate .    |  Google: a man is taking a picture in the side mirror of a car .
 --->
-<!--- just 
-Google: a slice of pizza sitting on top of a white plate .    |  Google: a man is taking a picture in the side mirror of a car .
-:------------------------------------------------------------:|:-------------------------------------------------------------------------:
-![](demo-mirror.png)                                          |  ![](demo-pizza.png)
---->
 
-<!--- just 
-<p align="center">
-<img src="demo-pizza.png" width="230" alt="Smiley face" title="COCO: a pizza sitting on top of a white plate" hfill> <img src="demo-mirror.png" width="230" title = "a person taking a picture in a mirror">
-</p>
---->
-<!--- just 
-![ckpt-bird](ckpt-bird.png) ![ckpt-mirror](ckpt-mirror.png) ![ckpt-pizza](ckpt-pizza.png)
---->
 
-<div class="image123">
-    <div class="imgContainer">
-        <img src="demo-pizza.png" height="200" width="200"/>
-        <p>This is image 1</p>
-    </div>
-    <div class="imgContainer">
-        <img class="middle-img" src="demo-pizza.png"/ height="200" width="200"/>
-        <p>This is image 2</p>
-    </div>
-    <div class="imgContainer">
-         <img src="demo-pizza.png"/ height="200" width="200"/>
-        <p>This is image 3</p>
-    </div>
-</div>
+<img src="demo-mirror.png" height="425"/> <img src="demo-pizza.png" height="425"/> 
+
+
 
 ### Requirement
 
