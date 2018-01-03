@@ -104,6 +104,10 @@ the latest model weights only see the extra training data obtained
 at the beginning of this epoch.
 
 ```shell
+# save a backup of the model checkpoint at step=1,000,000
+mkdir ${MODEL_DIR}/train_COCO
+mv  ${MODEL_DIR}/train/* ${MODEL_DIR}/train_COCO/
+
 # Train NIC with samples from Google.
 python /im2txt/train_wrapper.py \
   --input_file_pattern="${MSCOCO_DIR}/train-?????-of-?????" \
@@ -121,7 +125,12 @@ python /im2txt/data/build_google_data.py
 ```
 
 We compare our performances to that of the model fine-tuned with only COCO. 
+
 ```shell
+# move the checkpoints of the model trained with Google images to another directory.
+mkdir ${MODEL_DIR}/train_Google
+mv  ${MODEL_DIR}/train/!(1000000) ${MODEL_DIR}/train_Google/
+
 # Restart the training script with --train_inception=true.
 python /im2txt/train.py \
   --input_file_pattern="${MSCOCO_DIR}/train-?????-of-00256" \
@@ -134,8 +143,7 @@ Calculate perplexity values while train_wrapper.py or train.py is running.
 We evaluate the model by perplexity values during training. Since the perplexity value correlates to the loss value, we expect the perplexity on validating set decreases,
 either trained with or without extra samples from Google. 
 ```shell
-# Ignore GPU devices (only necessary if your GPU is currently memory
-# constrained, for example, by running the training script).
+# Ignore GPU devices.
 export CUDA_VISIBLE_DEVICES=""
 
 # Run the evaluation script. This will run in a loop, periodically loading the
