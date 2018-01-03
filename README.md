@@ -6,14 +6,14 @@ The NIC Wrapper is a framework that augments the training set of [Google NIC](ht
   During the training process of NIC, we keep inserting image caption pairs from Google as extra training samples.
   By doing this, we expect the mistakes made by NIC are corrected. 
   
-
+<!--- just 
 ### Contents
 * [Overview](#overview)
 * [Requirement](#requirement)
 * [Installation](#installation)
 * [References](#references)
 * [Contact](#contact)
-
+--->
 ### Overview
 Suppose NIC sees an image of a "cat" and describe it as a "dog". If we use the term "dog"
 to source extra images from Google and let NIC see the new images, NIC might
@@ -34,7 +34,7 @@ Google: a slice of pizza sitting on top of a white plate .    |  Google: a man i
 --->
 
 
-<img src="demo-mirror.png" height="250"/> <img src="demo-pizza.png" height="250"/> 
+<img src="demo-mirror.png" height="233"/> <img src="demo-pizza.png" height="233"/> 
 
 
 
@@ -153,7 +153,10 @@ An example of using the COCO evaluation API is available via https://github.com/
 [Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge](https://arxiv.org/abs/1609.06647)
 
 [Microsoft COCO Captions: Data Collection and Evaluation Server](https://arxiv.org/abs/1504.00325)
+
+<!--- just 
 ### Contact
 Zitong Lian (LEAAN | lianzitong@yahoo.com)
+--->
 
 
