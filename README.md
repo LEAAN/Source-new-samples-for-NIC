@@ -20,7 +20,7 @@ to source extra images from Google and let NIC see the new images, NIC might
 realize how a dog look like. 
 The NIC Wrapper automates this process. In each epoch of training, the wrapper sources extra training samples from Google, using the captions predicted by the latest model weights as textual queries. The model is expected to be more accurate since it now learns how Google binds images and captions beyond the initial training set.
 
-The following diagram illustrates the model architecture.
+The following diagram illustrates the architecture of NIC Wrapper.
 ![Show and Tell Architecture](phase2.png)
 
 We see a few decimal BLEU4 points of improvement when evaluating the NIC Wrapper on the
