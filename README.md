@@ -15,11 +15,10 @@ The NIC Wrapper is a framework that augments the training set of [Google NIC](ht
 * [Contact](#contact)
 --->
 ### Overview
-Suppose NIC sees an image of a "cat" and describe it as a "dog". If we use the term "dog"
+Suppose NIC sees an image of a "cat" and describes it as a "dog". If we use the term "dog"
 to source extra images from Google and let NIC see the new images, NIC might
-realize how a dog should look like. 
-The NIC Wrapper automates this process. In each epoch of training, the wrapper sources extra training samples from Google, using the captions predicted by the latest model weights
-  as textual queries. By keeps doing this, the model is expected to be more accurate since it has learned how Google binds images and captions.
+realize how a dog look like. 
+The NIC Wrapper automates this process. In each epoch of training, the wrapper sources extra training samples from Google, using the captions predicted by the latest model weights as textual queries. The model is expected to be more accurate since it now learns how Google binds images and captions beyond the initial training set.
 
 The following diagram illustrates the model architecture.
 ![Show and Tell Architecture](phase2.png)
